@@ -9,6 +9,7 @@ header('location:index.php');
 
 <?php
 //mag show sang information sang user nga nag login
+//Hello World this is the change made
 $member_id=$_SESSION['member_id'];
 
 $result5=mysql_query("select * from members where member_id='$member_id'")or die(mysql_error);
