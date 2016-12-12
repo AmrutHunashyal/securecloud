@@ -4,7 +4,7 @@ session_start();
 if (!isset($_SESSION['member_id'])){
 header('location:index.php');
 }
-//
+// Hello hwo are you
 ?>
 
 <?php
